@@ -82,7 +82,7 @@ const RecordingEditor = props => (
         <form onSubmit={handleSubmit}>
           <FormInputs>
             <InputContainer>
-              <StyledLabel htmlFor="title">Title</StyledLabel>
+              <StyledLabel htmlFor="title">Note Title</StyledLabel>
               <StyledInput
                 type="text"
                 name="title"
@@ -92,7 +92,7 @@ const RecordingEditor = props => (
             </InputContainer>
 
             <InputContainer>
-              <StyledLabel htmlFor="text">Note</StyledLabel>
+              <StyledLabel htmlFor="text">Note recorded from speech to text</StyledLabel>
               <StyledTextarea
                 name="text"
                 value={values.text}
