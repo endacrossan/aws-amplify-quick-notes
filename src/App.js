@@ -29,14 +29,14 @@ const theme = {
     color: "#303952"
   },
   inputLabel: {
-    color: "#74b49b"
+    color: "#2900ff"
   },
   input: {
-    backgroundColor: "#f4f9f4",
-    color: "#74b49b"
+    backgroundColor: "#e1eaf5",
+    color: "#2900ff"
   },
   hint: {
-    color: "#74b49b"
+    color: "#2900ff"
   },
   button: {
     borderRadius: "3px",
