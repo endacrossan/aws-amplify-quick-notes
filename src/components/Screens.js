@@ -25,12 +25,12 @@ const Title = styled("h1")`
   margin-top: 0;
   margin-bottom: 0;
   text-transform: uppercase;
-  color: #74b49b;
+  color: #1747ff;
   font-size: 24px;
 `;
 
 const SignOutButton = styled(Button)`
-  background-color: #74b49b;
+  background-color: #1747ff;
   cursor: pointer;
 `;
 
@@ -53,7 +53,7 @@ const StyledTabList = styled(TabList)`
   box-shadow: 0 6px 6px rgba(116, 180, 155, 0.4);
 
   & > [data-selected] {
-    border-bottom-color: #74b49b;
+    border-bottom-color: #1747ff;
     color: #74b49b;
   }
 `;
