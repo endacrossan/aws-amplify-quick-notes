@@ -54,7 +54,7 @@ const StyledTabList = styled(TabList)`
 
   & > [data-selected] {
     border-bottom-color: #1747ff;
-    color: #74b49b;
+    color: #1747ff;
   }
 `;
 
@@ -78,7 +78,7 @@ const StyledTab = styled(Tab)`
   text-transform: uppercase;
   flex: 1;
   padding: 16px;
-  color: #74b49b;
+  color: #1747ff;
   background-color: #ffffff;
   font-size: 16px;
   border: none;
