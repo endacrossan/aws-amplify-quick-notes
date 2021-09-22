@@ -67,7 +67,7 @@ function App() {
     <Screens />
   ) : (
     <>
-      <Title>Record Audio Notes - with speech to textfunctionality included</Title>
+      <Title>Apprentice Portal - Get Started</Title>
       <Authenticator
         onStateChange={authState => {
           if (authState === "signedIn") {
