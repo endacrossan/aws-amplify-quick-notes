@@ -67,7 +67,7 @@ function App() {
     <Screens />
   ) : (
     <>
-      <Title>Apprentice Portal | Getting Started</Title>
+      <Title>Apprentice Portal | Get Started</Title>
       <Authenticator
         onStateChange={authState => {
           if (authState === "signedIn") {
