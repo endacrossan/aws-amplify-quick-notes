@@ -11,7 +11,7 @@
 // please read our getting started guide:
 // https://on.cypress.io/introduction-to-cypress
 
-describe('testing audio notes app', () => {
+describe('testing Apprentice Portal login UI fields', () => {
   beforeEach(() => {
     // Cypress starts out with a blank slate for each test
     // so we must tell it to visit our website with the `cy.visit()` command.
@@ -21,7 +21,7 @@ describe('testing audio notes app', () => {
     cy.visit('https://master.d3grjcoxj6hatz.amplifyapp.com/')
   })
 
-  it('check that two input fields exist on login screen', () => {
+  it('check that username and password input fields exist on login screen', () => {
     // We use the `cy.get()` command to get all elements that match the selector.
     // Then, we use `should` to assert that there are two matched items,
     // which are the two default items.
