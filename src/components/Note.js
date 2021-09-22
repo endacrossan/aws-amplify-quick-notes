@@ -18,13 +18,13 @@ const Note = styled("div")`
 `;
 
 const Title = styled("h2")`
-  color: #74b49b;
+  color: #1747ff;
   margin-top: 0;
   margin-bottom: 8px;
 `;
 
 const Text = styled("p")`
-  color: #74b49b;
+  color: #1747ff;
   margin-top: 0;
 `;
 
@@ -33,7 +33,7 @@ const Icon = styled("button")`
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  color: #74b49b;
+  color: #1747ff;
   border: none;
   cursor: pointer;
   flex: 1;
@@ -41,13 +41,13 @@ const Icon = styled("button")`
 
   &:hover {
     color: #ffffff;
-    background-color: #74b49b;
+    background-color: #1747ff;
   }
 `;
 
 const Divider = styled("div")`
   height: 2px;
-  background-color: #f4f9f4;
+  background-color: #0cdf51a;
 `;
 
 const NoteActions = styled("div")`
@@ -55,7 +55,7 @@ const NoteActions = styled("div")`
   justify-content: stretch;
   align-items: stretch;
   height: 50px;
-  background-color: #74b49b;
+  background-color: #1747ff;
 `;
 
 const Info = styled.div`
